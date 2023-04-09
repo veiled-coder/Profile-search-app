@@ -1,7 +1,7 @@
 # SOCIAL MEDIA APP SEARCH FEATURE
 # Topics
-    * Rendering Lists in React
-    * Event Handling in React
+* Rendering Lists in React
+* Event Handling in React
 
 You just got employed at a Social Media tech company. Your first assignment is to implement a Profile Search application.
 **The app has the following features:**
@@ -22,7 +22,6 @@ Implement this application using React and host it on Netlify/Github pages
 **The data for the user profiles is provided below:**
 
 ```
-Below is data for the user profiles
 [
     {
         "id": "60d0fe4f5311236168a109f5",
