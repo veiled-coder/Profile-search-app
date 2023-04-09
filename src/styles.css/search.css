@@ -1,0 +1,8 @@
+.search-bar{
+    width: 100%;
+    height: 4.5rem;
+    border: transparent;
+    border-radius: 5px;
+    padding: 1rem;
+    font-style: italic;
+}
