@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# SOCIAL MEDIA APP SEARCH FEATURE
+# Topics
+    * Rendering Lists in React
+    * Event Handling in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You just got employed at a Social Media tech company. Your first assignment is to implement a Profile Search application.
+**The app has the following features:**
 
-## Available Scripts
+    * A list of profiles of users
+    * Ability to search the user profiles by name such that as you type into the search bar, the list is filtered
 
-In the project directory, you can run:
+Also, the Product Designer provided you with this design comp below:
 
-### `npm start`
+![socialmediaAppMockup](src/images/media.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Implement this application using React and host it on Netlify/Github pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**What you are submitting:**
+- A link to the repository on GitHub
+- A hosted link to your project
 
-### `npm test`
+**The data for the user profiles is provided below:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Below is data for the user profiles
+[
+    {
+        "id": "60d0fe4f5311236168a109f5",
+        "title": "ms",
+        "firstName": "Charlotte",
+        "lastName": "Legrand",
+        "picture": "https://randomuser.me/api/portraits/med/women/77.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a109f6",
+        "title": "miss",
+        "firstName": "Madison",
+        "lastName": "Ambrose",
+        "picture": "https://randomuser.me/api/portraits/med/women/15.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a109fa",
+        "title": "ms",
+        "firstName": "Ann",
+        "lastName": "Mason",
+        "picture": "https://randomuser.me/api/portraits/med/women/18.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a109fb",
+        "title": "mr",
+        "firstName": "Sohan",
+        "lastName": "Pierre",
+        "picture": "https://randomuser.me/api/portraits/med/men/77.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a109fc",
+        "title": "mr",
+        "firstName": "Gonzaga",
+        "lastName": "Ribeiro",
+        "picture": "https://randomuser.me/api/portraits/med/men/10.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a109ff",
+        "title": "mrs",
+        "firstName": "Josefina",
+        "lastName": "Calvo",
+        "picture": "https://randomuser.me/api/portraits/med/women/3.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a10a00",
+        "title": "mrs",
+        "firstName": "Els",
+        "lastName": "Ijsseldijk",
+        "picture": "https://randomuser.me/api/portraits/med/women/75.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a10a01",
+        "title": "mr",
+        "firstName": "Jesus",
+        "lastName": "Riley",
+        "picture": "https://randomuser.me/api/portraits/med/men/45.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a10a03",
+        "title": "mr",
+        "firstName": "Andri",
+        "lastName": "Leclerc",
+        "picture": "https://randomuser.me/api/portraits/med/men/57.jpg"
+    },
+    {
+        "id": "60d0fe4f5311236168a10a04",
+        "title": "mr",
+        "firstName": "Konsta",
+        "lastName": "Manninen",
+        "picture": "https://randomuser.me/api/portraits/med/men/24.jpg"
+    }
+]
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
