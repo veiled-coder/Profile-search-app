@@ -8,7 +8,7 @@ You just got employed at a Social Media tech company. Your first assignment is t
 **The app has the following features:**
 
 * A list of profiles of users
-    *Ability to search the user profiles by name such that as you type into the search bar, the list is filtered
+* Ability to search the user profiles by name such that as you type into the search bar, the list is filtered
 
 Also, the Product Designer provided you with this design comp below:
 
